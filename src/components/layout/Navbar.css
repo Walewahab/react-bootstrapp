@@ -1,0 +1,44 @@
+:root {
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-dark: rgba(255,255,255,0);
+}
+
+body {
+    font-family: "poppin" sans-serif;
+}
+.logo {
+    width: 2.1875rem;
+}
+
+nav a.nav-link {
+   
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.3125rem;
+    margin-left: 0.075rem;
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 2rem !important;
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
